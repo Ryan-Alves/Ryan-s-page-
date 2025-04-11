@@ -5,11 +5,32 @@
         <title>Ryan's page</title>
     </head>
     <body>
+        <header>
+        <section id="My resume">    
         <h1>My resume</h1>
+            <nav>
+                <ul>
+                    <li><a href="#Education">Educação</a></li>
+                    <li><a href="#Work expirience">Experiência</a></li>
+                    <li><a href="#Skills">Habilidades</a></li>
+                    <li><a href="#Sobre">Sobre</a></li>
+                </ul>
+            </nav>
         <img src="./RYAN (1).jpg" alt="Ryan's picture" height="100px" width="80px">
          <br/>Olá, me chamo Ryan! Sou um jovem-adulto de 22 anos que sempre foi muito curioso, desde crinaça, com interesses
          variados, como tecnologia, filosofia, jogos de tabuleiro, peças de hardware de computadores, etc.
+        </section>
+
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+        </style>
          <hr/>
+        </header>
+
+        <main>
+        <section id="Education">
          <p>
             <h1>Education</h1>
             <ol>
@@ -43,7 +64,9 @@
             </ol>
          </p>
          <hr/>
+        </section>
 
+        <section id="Work expirience">
          <p>
             <h1>Work expirience</h1>
             <ul>
@@ -55,7 +78,9 @@
             </ul>
          </p>
         <hr/>
+         </section>
 
+         <section id="Skills">
          <p>
             <h1>Skills</h1>
             <ul>
@@ -65,11 +90,18 @@
                 </ul>
          </p>
          <hr/>
+        </section>
+        </main>
 
-         <p>
-            <a href="./contact.html">Contact me</a>
-            <a href="./about.html">|About me</a>
-         </p>
+        <section id="Sobre">   
+            <nav>
+                <p>
+                    <a href="./contact.html">Contact me</a>
+                    <a href="./about.html">|About me</a>
+                    <a href="#My resume">|Back to top</a>
+                </p>
+            </nav>
+        </section>
 
          <footer>
             <p>© 2025, Ryan. All rights reserved</p>
